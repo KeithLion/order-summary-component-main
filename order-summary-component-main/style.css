@@ -1,0 +1,113 @@
+     .attribution {
+         font-size: 11px;
+         text-align: center;
+     }
+
+     .attribution a {
+         color: hsl(228, 45%, 44%);
+     }
+
+    body{
+        background-image: url('images/pattern-background-desktop.svg');
+        background-repeat: no-repeat;
+        background-color: hsl(225, 100%, 94%);
+    }
+
+    main{
+font-family:'Red Hat Display', sans-serif;;
+        border-radius: 1rem;
+        max-width: 450px;
+        margin: 0 auto;
+        background-color: white;
+        margin-top: 12%;
+    }
+
+    @media screen and (max-width: 400px) {
+        body{
+            background-image: url('images/pattern-background-mobile.svg');
+        }
+
+        main{
+            min-width: 450px;
+        }
+    }
+
+    article{
+text-align: center;
+padding: 3px;
+    }
+
+    h2{
+        font-weight: 900;
+    }
+
+    p{
+        margin: 0;
+    }
+
+    a:hover{
+        text-decoration: none;
+    }
+
+    .plan{
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+
+    .price{
+        font-weight: 500;
+        color: hsl(224, 23%, 55%);
+    }
+
+    #main-image{
+        border-radius: .75rem .75rem 0 0;
+    }
+
+
+    .summary{
+        display: flex;
+        align-items: center;
+        background-color: hsl(225, 100%, 98%);
+        padding: 12px;
+        border-radius: 13px;
+    }
+    .description{
+        font-weight: 500;
+        color: hsl(224, 23%, 55%)
+    }
+    .item{
+        margin-right: 115px;
+        margin-left: 20px;
+    }
+    .cancel{
+        text-decoration: none;
+        color: hsl(224, 23%, 55%);
+        padding-top: 20px;
+        padding-bottom: 25px;
+        display: block;
+
+    }
+
+    button{
+        background-color: hsl(245, 75%, 52%);
+        color: white;
+        padding: 20px;
+        width: 365px;
+        border-radius: 15px;
+        border: 0;
+        margin: 10px;
+        box-shadow: 5px 10px 10px hsl(225, 100%, 94%);
+        font-weight: 700;
+    }
+
+    button:hover{
+        cursor: pointer;
+        background-color: hsl(245, 75%, 52%, 75%);;
+    }
+
+        footer {
+            position: static;
+            width: 100%;
+            text-align: center;
+            margin-top: 10px;
+        }
